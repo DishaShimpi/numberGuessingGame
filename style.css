@@ -1,0 +1,74 @@
+
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+  width: 50%;
+  border-width: 5px;
+  border-style: double;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: center;
+    
+}
+.lastResult {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  size: 10pc;
+  font-size: 20px;
+}
+.h1{
+  background-color:peachpuff;
+  font-size: 25px;
+}
+.p{
+  font-size: 25px;
+}
+.form{
+  font-size: 25px;
+}
+.guesses{
+  font-size: 20px;
+ text-align: center;
+}
+.lowOrHi{
+  text-align: center;
+  font-size: 20px;
+}
+.guessField{
+    padding: 10 px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#submit{
+  text-align: center;
+  padding:15px;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: peachpuff;
+}
+#submit:hover{
+ background-color: peru;
+ font-weight: bold;
+}
+.resetButton {
+  text-align: center;
+  margin-left:40%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+  padding:15px;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: peachpuff;
+}
+.resetButton:hover{
+    background-color: peru;
+    font-weight: bold;
+}
